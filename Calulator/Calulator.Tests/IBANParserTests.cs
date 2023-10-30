@@ -5,6 +5,7 @@ namespace Calulator.Tests
     public class IBANParserTests
     {
         [Fact]
+        [Trait("Category", "UnitTest")]
         public void ConvertIBANToBLZUndKontonummer_throws_if_iban_is_null_or_empty()
         {
             var actNull = () => IBANParser.ConvertIBANToBLZUndKontonummer(null);
@@ -15,6 +16,7 @@ namespace Calulator.Tests
         }
 
         [Fact]
+        [Trait("Category", "UnitTest")]
         public void ConvertIBANToBLZUndKontonummer_throws_if_iban_not_starts_with_DE()
         {
             var act = () => IBANParser.ConvertIBANToBLZUndKontonummer("AT123456");

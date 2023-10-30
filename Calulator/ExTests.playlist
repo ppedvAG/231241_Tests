@@ -1,0 +1,54 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="Calulator.Tests" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="Calulator.Tests" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="CalcTests" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Calulator.Tests.CalcTests.Sum_MAX_and_1_throws_OverflowEx" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="Calulator.Tests.CalcTests.Sum_MAX_and_1_throws_OverflowEx" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Calulator.Tests.CalcTests.Minus_should_throw_OverflowExceptions" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="Calulator.Tests.CalcTests.Minus_should_throw_OverflowExceptions(a: -2147483648, b: 1)" />
+                        <Property Name="DisplayName" Value="Calulator.Tests.CalcTests.Minus_should_throw_OverflowExceptions(a: 2147483647, b: -1)" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+                <Rule Match="All">
+                  <Property Name="Class" Value="IBANParserTests" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Calulator.Tests.IBANParserTests.ConvertIBANToBLZUndKontonummer_throws_if_iban_is_null_or_empty" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="Calulator.Tests.IBANParserTests.ConvertIBANToBLZUndKontonummer_throws_if_iban_is_null_or_empty" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Calulator.Tests.IBANParserTests.ConvertIBANToBLZUndKontonummer_throws_if_iban_not_starts_with_DE" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="Calulator.Tests.IBANParserTests.ConvertIBANToBLZUndKontonummer_throws_if_iban_not_starts_with_DE" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>
