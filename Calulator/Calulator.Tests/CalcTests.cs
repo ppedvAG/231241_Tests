@@ -1,3 +1,5 @@
+using FluentAssertions;
+
 namespace Calulator.Tests
 {
     public class CalcTests
@@ -52,5 +54,33 @@ namespace Calulator.Tests
 
             Assert.Throws<OverflowException>(() => calc.Sum(int.MaxValue, 1));
         }
+
+
+        [Fact]
+        public void Minus_10_and_3_results_7()
+        {
+            //Arrange
+            var calc = new Calc();
+
+            //Act
+            var result = calc.Minus(10, 3);
+
+            //Fleunt Assert
+            result.Should().Be(7);
+            result.Should().BeInRange(2, 7);
+        }
+
+        [Theory]
+        [InlineData(int.MinValue, 1)]
+        [InlineData(int.MaxValue, -1)]
+        public void Minus_should_throw_OverflowExceptions(int a, int b)
+        {
+            var calc = new Calc();
+
+            var act = () => calc.Minus(a, b);
+
+            act.Should().Throw<OverflowException>();
+        }
+
     }
 }
