@@ -45,7 +45,12 @@ namespace Calulator.Tests
         }
 
 
+        [Fact]
+        public void Sum_MAX_and_1_throws_OverflowEx()
+        {
+            var calc = new Calc();
 
-
+            Assert.Throws<OverflowException>(() => calc.Sum(int.MaxValue, 1));
+        }
     }
 }
