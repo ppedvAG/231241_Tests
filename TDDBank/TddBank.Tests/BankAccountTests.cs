@@ -40,6 +40,10 @@ namespace TDDBank.Tests
             ba.Withdraw(6m);
 
             Assert.Equal(14m, ba.Balance);
+
+            ba.Withdraw(14m);
+
+            Assert.Equal(0m, ba.Balance);
         }
 
         [Fact]
