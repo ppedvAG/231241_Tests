@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34219.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.ScreamStream.Model", "ppedv.ScreamStream.Model\ppedv.ScreamStream.Model.csproj", "{5F6E7887-D2CC-45A2-B6FE-2ADE2EDDA3C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ppedv.ScreamStream.Model", "ppedv.ScreamStream.Model\ppedv.ScreamStream.Model.csproj", "{5F6E7887-D2CC-45A2-B6FE-2ADE2EDDA3C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.ScreamStream.Data.EfCore", "ppedv.ScreamStream.Data.EfCore\ppedv.ScreamStream.Data.EfCore.csproj", "{649233C0-7251-4AAC-8E9A-7CC72A3603C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ppedv.ScreamStream.Data.EfCore", "ppedv.ScreamStream.Data.EfCore\ppedv.ScreamStream.Data.EfCore.csproj", "{649233C0-7251-4AAC-8E9A-7CC72A3603C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.ScreamStream.Data.EfCore.Tests", "ppedv.ScreamStream.Data.EfCore.Tests\ppedv.ScreamStream.Data.EfCore.Tests.csproj", "{0EC57B38-002A-4807-94D3-FE2934C6FAB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ppedv.ScreamStream.Data.EfCore.Tests", "ppedv.ScreamStream.Data.EfCore.Tests\ppedv.ScreamStream.Data.EfCore.Tests.csproj", "{0EC57B38-002A-4807-94D3-FE2934C6FAB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.ScreamStream.Core", "ppedv.ScreamStream.Core\ppedv.ScreamStream.Core.csproj", "{B771B9CB-A099-4F0D-8C34-8C0366D580D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ppedv.ScreamStream.Core", "ppedv.ScreamStream.Core\ppedv.ScreamStream.Core.csproj", "{B771B9CB-A099-4F0D-8C34-8C0366D580D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.ScreamStream.Core.Tests", "ppedv.ScreamStream.Core.Tests\ppedv.ScreamStream.Core.Tests.csproj", "{DEF450B3-3BB3-4ACB-B4B2-77A8DBA747D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ppedv.ScreamStream.Core.Tests", "ppedv.ScreamStream.Core.Tests\ppedv.ScreamStream.Core.Tests.csproj", "{DEF450B3-3BB3-4ACB-B4B2-77A8DBA747D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.ScreamStream.UI.DevConsole", "ppedv.ScreamStream.UI.DevConsole\ppedv.ScreamStream.UI.DevConsole.csproj", "{16875AB8-105B-444D-8536-36CAE4A927CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ppedv.ScreamStream.UI.DevConsole", "ppedv.ScreamStream.UI.DevConsole\ppedv.ScreamStream.UI.DevConsole.csproj", "{16875AB8-105B-444D-8536-36CAE4A927CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.ScreamStream.UI.BlazorServer", "ppedv.ScreamStream.UI.BlazorServer\ppedv.ScreamStream.UI.BlazorServer.csproj", "{C2AB7E3F-DC56-4D38-AB5B-F1EEF2126F2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ppedv.ScreamStream.UI.BlazorServer", "ppedv.ScreamStream.UI.BlazorServer\ppedv.ScreamStream.UI.BlazorServer.csproj", "{C2AB7E3F-DC56-4D38-AB5B-F1EEF2126F2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.ScreamStream.UI.BlazorServer.Tests", "ppedv.ScreamStream.UI.BlazorServer.Tests\ppedv.ScreamStream.UI.BlazorServer.Tests.csproj", "{24471F8B-51A5-4DD0-A696-731AFEF4226D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{C2AB7E3F-DC56-4D38-AB5B-F1EEF2126F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2AB7E3F-DC56-4D38-AB5B-F1EEF2126F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2AB7E3F-DC56-4D38-AB5B-F1EEF2126F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24471F8B-51A5-4DD0-A696-731AFEF4226D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24471F8B-51A5-4DD0-A696-731AFEF4226D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24471F8B-51A5-4DD0-A696-731AFEF4226D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24471F8B-51A5-4DD0-A696-731AFEF4226D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
