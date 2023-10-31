@@ -16,7 +16,7 @@ namespace ppedv.ScreamStream.Data.EfCore
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(conString);//.UseLazyLoadingProxies();
+            optionsBuilder.UseSqlServer(conString).UseLazyLoadingProxies();
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

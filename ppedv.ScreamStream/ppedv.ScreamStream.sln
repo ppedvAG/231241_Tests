@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.ScreamStream.Core", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.ScreamStream.Core.Tests", "ppedv.ScreamStream.Core.Tests\ppedv.ScreamStream.Core.Tests.csproj", "{DEF450B3-3BB3-4ACB-B4B2-77A8DBA747D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.ScreamStream.UI.DevConsole", "ppedv.ScreamStream.UI.DevConsole\ppedv.ScreamStream.UI.DevConsole.csproj", "{16875AB8-105B-444D-8536-36CAE4A927CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{DEF450B3-3BB3-4ACB-B4B2-77A8DBA747D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEF450B3-3BB3-4ACB-B4B2-77A8DBA747D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEF450B3-3BB3-4ACB-B4B2-77A8DBA747D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16875AB8-105B-444D-8536-36CAE4A927CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16875AB8-105B-444D-8536-36CAE4A927CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16875AB8-105B-444D-8536-36CAE4A927CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16875AB8-105B-444D-8536-36CAE4A927CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
