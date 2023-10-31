@@ -1,0 +1,33 @@
+﻿@page "/movies"
+@using ppedv.ScreamStream.Model.Contracts
+@using ppedv.ScreamStream.Model.DomainModel
+@inject IRepository repo
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Published Date</th>
+            <th>US Age Rating</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var movie in movies)
+        {
+            <tr>
+                <td>@movie.Titel</td>
+                <td>@movie.PublishedDate.ToShortDateString()</td>
+                <td>@movie.UsAgeRating</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    List<Movie> movies;
+
+    protected override void OnInitialized()
+    {
+        movies = repo.Query<Movie>().ToList();
+    }
+}

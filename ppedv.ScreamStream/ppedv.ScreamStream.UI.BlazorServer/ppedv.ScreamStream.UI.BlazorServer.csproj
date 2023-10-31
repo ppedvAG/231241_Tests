@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ppedv.ScreamStream.Core\ppedv.ScreamStream.Core.csproj" />
+    <ProjectReference Include="..\ppedv.ScreamStream.Data.EfCore\ppedv.ScreamStream.Data.EfCore.csproj" />
+    <ProjectReference Include="..\ppedv.ScreamStream.Model\ppedv.ScreamStream.Model.csproj" />
+  </ItemGroup>
+
+</Project>
