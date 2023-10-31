@@ -1,4 +1,4 @@
-﻿namespace ppedv.ScreamStream.Model
+﻿namespace ppedv.ScreamStream.Model.DomainModel
 {
     public abstract class Entity
     {

@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ppedv.ScreamStream.Model;
+using ppedv.ScreamStream.Model.DomainModel;
 
 namespace ppedv.ScreamStream.Data.EfCore
 {

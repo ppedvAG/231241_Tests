@@ -2,7 +2,7 @@ using AutoFixture;
 using AutoFixture.Kernel;
 using FluentAssertions;
 using Microsoft.EntityFrameworkCore;
-using ppedv.ScreamStream.Model;
+using ppedv.ScreamStream.Model.DomainModel;
 using System.Reflection;
 
 namespace ppedv.ScreamStream.Data.EfCore.Tests
