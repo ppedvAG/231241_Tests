@@ -5,6 +5,10 @@ VisualStudioVersion = 17.8.34219.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.ScreamStream.Model", "ppedv.ScreamStream.Model\ppedv.ScreamStream.Model.csproj", "{5F6E7887-D2CC-45A2-B6FE-2ADE2EDDA3C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.ScreamStream.Data.EfCore", "ppedv.ScreamStream.Data.EfCore\ppedv.ScreamStream.Data.EfCore.csproj", "{649233C0-7251-4AAC-8E9A-7CC72A3603C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.ScreamStream.Data.EfCore.Tests", "ppedv.ScreamStream.Data.EfCore.Tests\ppedv.ScreamStream.Data.EfCore.Tests.csproj", "{0EC57B38-002A-4807-94D3-FE2934C6FAB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5F6E7887-D2CC-45A2-B6FE-2ADE2EDDA3C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F6E7887-D2CC-45A2-B6FE-2ADE2EDDA3C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F6E7887-D2CC-45A2-B6FE-2ADE2EDDA3C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{649233C0-7251-4AAC-8E9A-7CC72A3603C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{649233C0-7251-4AAC-8E9A-7CC72A3603C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{649233C0-7251-4AAC-8E9A-7CC72A3603C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{649233C0-7251-4AAC-8E9A-7CC72A3603C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EC57B38-002A-4807-94D3-FE2934C6FAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC57B38-002A-4807-94D3-FE2934C6FAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC57B38-002A-4807-94D3-FE2934C6FAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EC57B38-002A-4807-94D3-FE2934C6FAB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
