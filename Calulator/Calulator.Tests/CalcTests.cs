@@ -15,6 +15,7 @@ namespace Calulator.Tests
 
             //Assert
             Assert.Equal(9, result);
+            
         }
 
         [Fact]
